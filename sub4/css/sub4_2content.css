@@ -1,0 +1,25 @@
+/* 기업소개 서브4-2 내용 영역 */
+#content .title_area span{font-size: 18px;text-align: center;display: block;}
+.challenger{margin-bottom: 150px;}
+.challenger h3{font-size: 40px; margin-bottom: 30px;}
+.challenger span{font-size: 24px;color: #c06;}
+.challenger .challenger_lt{overflow: hidden;margin-top: 50px;margin-bottom: 50px;}
+.challenger p{float: left;}
+.challenger table{margin: 0 50px 0 50px;}
+.challenger table tr{margin-bottom:10px;background: rgb(235, 235, 235);position: relative;}
+.challenger table tr::before{position: absolute;content: '';display: block;background: #488693;width: 1100px; height: 2px;}
+.challenger table tr th{width: 580px;background:#65a5aa;color:#fff;padding: 21px;}
+.challenger table tr td{width: 500px;padding-left: 50px;}
+.challenger .step{overflow: hidden;margin-bottom: 100px;padding: 10px;}
+.challenger .step ul{padding-top: 50px;}
+.challenger .step li {float: left; width: 180px;height: 180px;border:2px solid #555;text-align: center;border-radius: 50%;margin-right: 50px;position: relative;}
+.challenger .step li::after{content: '';display: block;position: absolute;top: -12px;left: -12px;border: 3px solid rgb(247, 153, 200);border-radius: 65%;
+width: 110%;height: 110%;}
+
+.challenger .step li:last-child{margin-right: 0;}
+.challenger .step dl{padding-top: 50px;}
+.challenger .step dl dt{margin-bottom: 10px;font-size: 24px;color: #c06;}
+
+
+
+

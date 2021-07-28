@@ -1,0 +1,67 @@
+/* 기업소개 서브1-1 내용 영역 */
+
+
+
+.content_area{width: 1200px;font-size: 18px;}
+.content_area .title {font-size: 24px;color: #c06;}
+.content_area .company_intro{margin: 0 0 150px 50px;}
+.content_area .company_intro h3{font-size: 40px;margin-bottom: 30px;}
+.content_area .company_intro .intro_content{overflow: hidden;margin-top: 50px;}
+.content_area .company_intro .intro_content img{display:block;float: left;}
+.content_area .company_intro .intro_content .intro_p{float: right;}
+.content_area .company_intro .intro_content p{line-height: 1.7em;margin-bottom: 20px;}
+.content_area .company_intro .intro_content p span{font-weight: bold;}
+.content_area .company_intro .intro_content p:first-child{margin-top: 10px;}
+
+
+
+.content_area .ceo{margin-bottom:150px;position: relative;}
+.content_area .ceo h3{font-size: 40px;margin-bottom: 30px;}
+.content_area .ceo p{line-height: 1.7em;padding-bottom: 30px;}
+.content_area .ceo p span{font-weight: bold;}
+
+.content_area .ceo p:first-of-type{padding-top:50px;}
+.content_area .ceo img{display: block;position: absolute;bottom: 30px; right: 0;}
+.content_area .ceo .intro_p p span::after{content: '1';display: block; width: 3px;height: 3px;background: rgba(204, 1, 102, 1);}
+
+
+
+
+.content_area .customer{margin-bottom:150px;position: relative;}
+.content_area .customer h3{font-size: 40px;margin-bottom: 30px;margin-left: 50px;}
+.content_area .customer span{font-size: 24px;color: #c06;margin-left: 50px;}
+.content_area .customer ul{margin-top:50px ;}
+.content_area .customer ul li{overflow: hidden;}
+.content_area .customer ul li dl{width: 600px;height: 400px;background: #f9f9f9;position: relative;}
+.content_area .customer ul li dl dt{font-size: 30px;padding: 155px 400px 30px 80px;}
+.content_area .customer ul li dl dd{padding: 0 0 0 80px;}
+.content_area .customer ul li dl dd::before{content:'' ;display:block;width: 56px;height: 5px;background: #c06;
+    position: absolute;top:215px ;left: 80px; transition: all 1s;}
+.content_area .customer ul li:hover dl dd::before{width: 433px;}
+.content_area .customer ul li:nth-child(1) img{float: left;}
+.content_area .customer ul li:nth-child(1) dl{float: right;}
+.content_area .customer ul li:nth-child(2) img{float: right;}
+.content_area .customer ul li:nth-child(2) dl{float: left;}
+.content_area .customer ul li:nth-child(3) img{float: left;}
+.content_area .customer ul li:nth-child(3) dl{float: right;}
+  
+/* 상단에 고정 sticky menu */
+.navOn{position: fixed; width: 100%;z-index:60; left:0; top: 0;
+    transition: all .8s;background: #c06;}
+#content .title_area .navOn li::after{display: none;}
+#content .title_area .navOn .menu_sticky a{font-weight: bold;padding: 20px 0;
+        color: #fff;}
+/* 메뉴 활성화  scroll spy */
+#content .title_area .navOn .menu_sticky .spy {color: #333;background: #fff;}
+
+
+/*scroll animation*/
+/* scroll animation 최초값(출발지)  */ 
+.content_area section{position: relative; right:-1000px; top:0; opacity: 0;
+    transition: all .8s}
+/* scroll animation 최종값(목적지)  */ 
+.content_area section.boxMove{right:0; opacity: 1 }
+
+
+
+

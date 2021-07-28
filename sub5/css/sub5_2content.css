@@ -1,0 +1,62 @@
+/* 기업소개 서브5-2 내용 영역 */
+#content .title_area span{font-size: 18px;text-align: center;display: block;}
+#content section h3{font-size: 40px;margin-bottom: 30px;}
+#content section li{margin-bottom: 150px;}
+#content section li div{width: 1200px;height: 230px;position: relative;border-radius: 10px;}
+
+#content section .intro1_1 div{background: url(../images/content2/introduction_0101.jpg) no-repeat;}
+#content section .intro1_2 div{background: url(../images/content2/introduction_0102.jpg) no-repeat;}
+#content section .intro2_1 div{background: url(../images/content2/introduction_0201.jpg) no-repeat;}
+#content section .intro2_2 div{background: url(../images/content2/introduction_0202.jpg) no-repeat;}
+#content section .intro3_1 div{background: url(../images/content2/introduction_0301.jpg) no-repeat;}
+#content section .intro3_2 div{background: url(../images/content2/introduction_0302.jpg) no-repeat;}
+
+#content section li div h4{position: absolute;top: 20px;left: 55px;font-size: 24px;color: #fff;position: relative;}
+#content section li div h4::after{content: '';display: block;position: absolute; top:11px;left:-11px;background: #fff;width: 3px;height: 48px;}
+#content section li div strong{position: absolute;top: 55px;left: 55px;color: #fff;}
+#content section li div .balloon{position:relative;top: 77px;left: 20px;width:780px; height:100px;background:#ffffff;border-radius: 10px;}
+#content section li div .balloon::after{border-top:15px solid #ffffff;border-right: 15px solid transparent;border-bottom: 0px solid transparent;content:"";position:absolute;top:10px;right:-15px;}
+#content section li div p{padding: 10px;}
+#content section li table {text-align: justify;}
+#content section li table tr{border-bottom: 1px dotted #999;width: 333px;}
+#content section li table tr th {width: 333px;padding:0 50px;}
+#content section .intro1_1 table tr th {color: #6699cc;}
+#content section .intro1_2 table tr th {color: #669999;}
+#content section .intro2_1 table tr th {color: #d47782;}
+#content section .intro2_2 table tr th {color: #4ea6be;}
+#content section .intro3_1 table tr th {color: #8e84c0;}
+#content section .intro3_2 table tr th {color: #eb7630;}
+
+#content section li table tr td{padding: 20px;line-height: 1.7em;}
+
+/* 상단에 고정 sticky menu */
+.navOn{position: fixed; width: 100%;z-index:60; left:0; top: 0;
+    transition: all .8s;background: #c06;}
+#content .title_area .navOn li::after{display: none;}
+#content .title_area .navOn .menu_sticky a{font-weight: bold;padding: 20px 0;
+        color: #fff;}
+/* 메뉴 활성화  scroll spy */
+#content .title_area .navOn .menu_sticky .spy {color: #333;background: #fff;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+

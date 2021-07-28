@@ -1,0 +1,68 @@
+.content{}
+
+section{background:rgba(0, 0, 0, 0.8);padding: 50px 0;}
+section h3{ font-family:'Charm';font-size: 56px;color: #d5b555;
+text-align: center;margin-bottom: 40px;}
+
+ .ch3{overflow: hidden;} 
+ .ch3 li{width: 25%;float: left;padding-bottom: 400px;}
+ 
+.ch3 .card{position: relative;height: 400px;
+transform-style: preserve-3d; transition: all 1.5s;
+margin: 0 10%;}
+.ch3 li:hover .card{ transform: rotateY(180deg);}
+.ch3 .card div{position: absolute;top: 0;left: 0;width: 100%;height: 100%;
+    border-radius: 30px;}
+.ch3 .card .front{z-index: 1;transform: rotateY(180deg);}
+.ch3 .card .front img{width: 100%;;}
+.ch3 .card.back{z-index: 2;transform: rotateY(0deg);}
+.ch3 .card div dl{position: absolute;bottom: -200px;left: 0;
+background: rgb(0, 0, 0);color: #fff;
+border-radius:0 0 10% 10%;border-top: 3px solid #fff;
+padding: 10%;text-align: center;height: 30%;width: 80%;}
+.ch3 .card div dl dt{font-size: 24px;padding-bottom: 5%;}
+.ch3 li:nth-of-type(1) .back{background: url(../images/sub2/harry_potter.jpg) no-repeat center;background-size: cover;}
+.ch3 li:nth-of-type(2) .back{background: url(../images/sub2/hermione_granger.jpg) no-repeat center;background-size: cover;}
+.ch3 li:nth-of-type(3) .back{background: url(../images/sub2/ronald_weasley.jpg) no-repeat center;background-size: cover;}
+.ch3 li:nth-of-type(4) .back{background: url(../images/sub2/diggory.jpg) no-repeat center; background-size: cover;}
+.ch3 li:nth-of-type(5) .back{background: url(../images/sub2/shook_draco.jpg) no-repeat center;background-size: cover;}
+.ch3 li:nth-of-type(6) .back{background: url(../images/sub2/luna.jpg) no-repeat center;background-size: cover;}
+.ch3 li:nth-of-type(7) .back{background: url(../images/sub2/neville_longbottom.jpg) no-repeat center;background-size: cover;}
+.ch3 li:nth-of-type(8) .back{background: url(../images/sub2/fred_weasley.jpg) no-repeat center;background-size: cover;}
+.ch3 li:nth-of-type(9) .back{background: url(../images/sub2/albus_dumbledore.jpg) no-repeat center;background-size: cover;}
+.ch3 li:nth-of-type(10) .back{background: url(../images/sub2/voldemort.jpg) no-repeat center;background-size: cover;}
+.ch3 li:nth-of-type(11) .back{background: url(../images/sub2/severus_snape.jpg) no-repeat center;background-size: cover;}
+.ch3 li:nth-of-type(12) .back{background: url(../images/sub2/rubeus_hagrid.jpg) no-repeat center;background-size: cover;}
+
+
+.ch3 li .front{background: url(../images/sub2/godric_gryffindor.jpg) no-repeat center;background-size: cover;} 
+.ch3 li:nth-of-type(4) .front{background: url(../images/sub2/hufflepuff.jpg) no-repeat center;background-size: cover;} 
+.ch3 li:nth-of-type(5) .front{background: url(../images/sub2/slytherin.jpg) no-repeat center;background-size: cover;}
+.ch3 li:nth-of-type(10) .front{background: url(../images/sub2/slytherin.jpg) no-repeat center;background-size: cover;}
+.ch3 li:nth-of-type(11) .front{background: url(../images/sub2/slytherin.jpg) no-repeat center;background-size: cover;}
+.ch3 li:nth-of-type(6) .front{background: url(../images/sub2/ravenclaw.jpg) no-repeat center;background-size: cover;} 
+
+
+
+
+    
+
+
+
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+    .ch3 li{width: 50%;padding-bottom: 300px;}
+    .ch3 .card div dl{padding: 5%;}
+    .ch3 .card{margin: 0 20%;}
+    .ch3 .card div dl{width: 90%;}
+
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+    .ch3 li{width: 100%;float: none;}
+    .ch3 .card div dl{bottom: -180px;}
+    .ch3 .card{margin: 0 10%;}
+}

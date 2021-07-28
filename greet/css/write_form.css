@@ -1,0 +1,19 @@
+.content_area{width: 1000px;margin: 0 auto 150px;}
+
+.title{width: 1000px; margin: 10px auto;padding: 5px 0;background: #c06;border-radius: 10px;
+}
+.title p{text-align: center;color: #fff;font-size: 24px;}
+#write_form{text-align: center;}
+#write_form ul{overflow: hidden;padding: 5px 0;
+     border-top: 1px solid #666;border-bottom: 1px solid #666;}
+#write_form ul li{float: left;}
+#write_form ul .col1{width: 200px;margin: auto 0;background: rgba(204, 204, 204, 0.5);padding: 10px 0;}
+#write_form ul .col2{width: 790px;}
+#write_row1 .col2{margin-top: 10px;}
+#write_row2 li input{width: 750px;margin: 0 auto;padding: 10px 0;}
+#write_row3 li textarea{width: 750px;margin: 0 auto;}
+#write_form #write_row3 .col1{padding: 99px 0;}
+
+#write_button{overflow: hidden;}
+#write_button .bt{float: right;padding: 10px 20px; background: #c06; color: #fff;border-radius: 10px;
+margin:10px 5px 50px;border: none;font-size: 16px;font-weight: 400;}

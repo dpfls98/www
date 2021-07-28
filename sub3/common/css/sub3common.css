@@ -1,0 +1,30 @@
+/* sub6공동영역 */
+
+
+.visual{margin-top: 195px;width: 2000px;position: relative;left: 50%;margin-left: -1000px;}
+
+.sub_menu{position: absolute; top:350px;left: 50%;margin-left:-60px;font-size: 18px;}
+.sub_menu h3{font-size: 40px;font-weight: 300; color: #fff;margin: 0 auto;}
+.sub_menu ul{overflow: hidden;background: rgba(255,255,255, 0.7);margin:84px 0  0 -324px;width: 800px;}
+.sub_menu ul li{float: left;font-size: 22px;width: 50%;text-align: center;}
+.sub_menu ul li a{display: block;color: #333;padding: 10px 0;transition: all .5s;}
+.sub_menu ul li a:hover{background: #cc0066;color: #fff;font-size: 23px;}
+.sub_menu ul .current a{background: #cc0066;color: #fff;font-size: 23px;}
+
+
+
+
+#content{width: 1200px;margin: 0 auto;font-size: 18px;}
+#content .title_area {width: 1200px;margin-bottom: 150px;}
+#content .title_area .line_map{margin: 30px 0 0 950px;font-size: 16px;color: #666;}
+#content .title_area h2{font-size: 50px;font-weight: 700;text-align: center;padding: 50px 0 50px 0;position: relative;}
+#content .title_area h2::after{content: '';display: block;width: 100px;height: 3px;background: #cc0066;position: absolute;bottom: 40px;left: 46%;}
+
+#content .title_area ul{overflow: hidden;margin: 0 auto;width: 600px;}
+#content .title_area li{float: left;width: 50%;font-size: 18px;position: relative;color: #999;}
+#content .title_area li a{display: block;text-align: center;padding: 20px 0;}
+#content .title_area li a:hover{font-weight: bold;}
+#content .title_area li::after{content: '';display: block;width: 1px;height: 25px;background: #333;position: absolute;top: 20px;right: -4px;}
+#content .title_area li:last-child::after{display: none;}
+
+

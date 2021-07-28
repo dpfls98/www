@@ -1,0 +1,56 @@
+/* 기업소개 서브2-1 내용 영역 */
+.overseas{}
+.overseas h3{font-size: 40px;margin-bottom: 30px;}
+.overseas ul{overflow: hidden;}
+.overseas div{padding: 50px;background: url(../images/content1/maldives.jpg);margin-bottom: 100px;}
+.overseas ul li{float: left;width: 300px;height: 300px;border: 3px solid rgb(255, 255, 255);border-radius: 2%;margin-bottom: 88px;margin-right: 88px;background: #fff;}
+.overseas ul li:hover{border: 3px solid #c06;}
+.overseas ul li:nth-of-type(3){margin-right: 0;}
+.overseas ul li:nth-of-type(4){clear: both;margin-bottom: 0;}
+.overseas ul li:nth-of-type(5){margin-bottom: 0;}
+.overseas ul li:nth-of-type(6){margin-right: 0;margin-bottom: 0;}
+.overseas ul li dl{margin: 20px;}
+.overseas ul li dl dt{margin-bottom: 10px;}
+.overseas ul li dl dd:first-of-type{margin-bottom: 30px;font-size: 22px;}
+.overseas ul li dl dd:first-of-type::after{content: '';display: block;width: 260px;height: 1px;background: #c06;position: relative;top: 11px;right: 0;}
+
+.domestic{}
+.domestic h3{font-size: 40px;margin-bottom: 30px;}
+.domestic ul{overflow: hidden;}
+.domestic div{padding: 50px;background: url(../images/content1/hanok.jpg);margin-bottom: 100px;}
+.domestic ul li{float: left;width: 305px;height: 300px;border: 3px solid rgb(255, 255, 255);border-radius: 2%;margin-right: 88px;background: #fff;}
+.domestic ul li:hover{border: 3px solid #c06;}
+.domestic ul li dl{margin: 20px;}
+.domestic ul li dl dt{margin-bottom: 10px;}
+.domestic ul li dl dd:first-of-type{margin-bottom: 30px;font-size: 22px;}
+.domestic ul li dl dd:first-of-type::after{content: '';display: block;width: 260px;height: 1px;background: #c06;position: relative;top: 11px;right: 0;}
+
+.business{}
+.business h3{font-size: 40px;margin-bottom: 30px;}
+.business ul{overflow: hidden;}
+.business div{padding: 50px;background: url(../images/content1/singapore.jpg);margin-bottom: 150px;}
+.business ul li{float: left;width: 305px;height: 300px;border: 3px solid rgb(255, 255, 255);border-radius: 2%;margin-right: 88px;background: #fff;}
+.business ul li:hover{border: 3px solid #c06;}
+.business ul li dl{margin: 20px;}
+.business ul li dl dt{margin-bottom: 10px;}
+.business ul li dl dd:first-of-type{margin-bottom: 30px;font-size: 22px;}
+.business ul li dl dd:first-of-type::after{content: '';display: block;width: 260px;height: 1px;background: #c06;position: relative;top: 11px;right: 0;}
+
+/* 상단에 고정 sticky menu */
+.navOn{position: fixed; width: 100%;z-index:60; left:0; top: 0;
+    transition: all .8s;background: #c06;}
+#content .title_area .navOn li::after{display: none;}
+#content .title_area .navOn .menu_sticky a{font-weight: bold;padding: 20px 0;
+        color: #fff;}
+/* 메뉴 활성화  scroll spy */
+#content .title_area .navOn .menu_sticky .spy {color: #333;background: #fff;}
+
+
+
+
+
+
+
+
+
+

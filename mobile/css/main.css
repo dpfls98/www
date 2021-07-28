@@ -1,0 +1,90 @@
+/* CSS Document */
+
+
+/* 비주얼영역 */
+.main{margin-top: 50px;}
+.slides li{position: relative;}
+.slides li p{position: absolute;top: 45%; left: 0;width: 100%;
+    color: #fff;font-size: 40px;font-weight: bold;text-align: center;}
+.slides li p span{font-size: 15px;}    
+
+
+
+#content section{margin: 100px 10px 0 10px;}
+
+/* 컨텐츠1 기업소개 */
+#content .main_intro span{line-height: 1.5em;
+    font-size: 18px;font-weight:bold;}
+#content .intro_box{position: relative;margin-top: 20px;}
+#content .intro_box .intro_img {width: 80%;}
+#content .intro_box .intro_img img{width: 100%;}
+#content .intro_box .intro_text{font-weight: bold;text-align: center; line-height: 2em;
+    box-shadow: 10px 10px 10px #999;
+    height: 250px;background: #fff;
+    padding: 20px;width: 40%;
+    position: absolute;top: 35%;left: 50%;}
+#content .intro_box .intro_text a{padding: 30px;padding-top: 50px;display: block;
+    color: #c06;float: right;
+}
+
+/* 컨텐츠2 직무소개 */
+.job_intro h3{margin-bottom: 20px;
+    font-size: 30px;font-weight:bold;text-align: center;
+    position: relative;
+}
+.job_intro h3::after{content: '';width: 130px;height: 10px;z-index: -1;
+    position: absolute;bottom: 0;left: 50%;margin-left:-64px;background: rgba(204, 0, 102, 0.3);}
+.job_intro .job {background: #6699cc;width: 100%;}
+.job_intro .job ul li{width: 90%;padding: 24px;position: relative;}
+.job_intro .job ul li:nth-child(2){padding-bottom: 24px;}
+.job_intro .job ul li img{width: 100%;}
+.job_intro .job ul li dl{position: absolute;top: 20%; left: 0;
+color: #fff;text-align: center;line-height: 4.5em;
+width: 100%;height: 100%;}
+.job_intro div ul li dl dt{font-size: 20px;font-weight: bold;}
+.job_intro div ul li dl dd{line-height: 2em;}
+
+/* 컨텐츠3 다양한여행스타일 */
+.travel_type ul{overflow: hidden;}
+.travel_type ul li{float: left;width: 50%;position: relative;}
+.travel_type ul li a{display: block;}
+
+.travel_type ul li img{width: 100%;}
+.travel_type ul li p{color: #fff;
+    font-size: 30px;font-weight: bold;
+    position: absolute; top: 20px;left: 20px;
+}
+.travel_type ul li span{display: block;padding: 17px 33px;
+font-size: 25px;font-weight: bold;color: #333;}
+
+/* 컨텐츠4 홍보영상 */
+.promotion h3{margin-bottom: 20px;
+    font-size: 30px;font-weight:bold;
+    overflow: hidden;position: relative;
+}
+.promotion h3::after{content: '';width: 130px;height: 10px;z-index: -1;
+    position: absolute;bottom: 0;left: 0;background: rgba(204, 0, 102, 0.3);}
+.promotion h3{float: left;}
+.promotion a{float: right;display: block; padding: 10px;
+color: #c06;}
+
+/* 메인5 고객지원 */
+.support{padding-bottom: 100px;}
+.support ul{overflow: hidden;}
+.support ul li{float: left; width: 46%;
+    border: 7px solid #c06;
+text-align: center;}
+.support ul li i{font-size: 55px;padding: 20px;}
+.support ul li span{font-family:'Montserrat'; font-size: 20px;
+display: block;padding-bottom: 15px;}
+
+
+
+
+
+
+
+
+
+
+

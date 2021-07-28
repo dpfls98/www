@@ -1,0 +1,146 @@
+<?
+	session_start();
+    @extract($_SESSION); 
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>하나투어:오시는길</title>
+
+    <!-- 헤더푸터영역링크 -->
+    <link rel="stylesheet" href="../common/css/common.css">
+    <!-- 서브공통영역링크 -->
+    <link rel="stylesheet" href="./common/css/sub1common.css">
+    <!-- 서브1_4영역콘텐츠영역링크 -->
+    <link rel="stylesheet" href="./css/sub1_4content.css">
+    <!-- 아이콘폰트 -->
+    <script src="https://kit.fontawesome.com/ca7d9c82c9.js" crossorigin="anonymous"></script>
+    <script src="../common/js/prefixfree.min.js"></script>
+    <!-- 지도 자바 -->
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=ee5f2b38bde90e9259361143031595cb"></script>
+    <script src="./js/map.js"></script>
+    
+    <!--[if IE 9]>  
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+        <![endif]-->
+</head>
+<body>
+    <div class="wrap">
+        <!-- 헤더영역 -->
+        <? include "../common/sub_head.html" ?>
+        
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="?">
+        </div>
+        <div class="sub_menu">
+            <h3>회사소개</h3>
+            <ul>
+                <li><a href="./sub1_1.html">기업개요</a></li>
+                <li><a href="./sub1_2.html">연혁</a></li>
+                <li><a href="../greet/list.php">공지사항</a></li>
+                <li class="current"><a href="./sub1_4.html">오시는길</a></li>
+            </ul> 
+        </div>
+
+        <article id="content">
+
+            <div class="title_area">
+                <div class="line_map">
+                    <span class="hidden">홈아이콘</span>
+                    <i class="fas fa-home"></i> 
+                    &gt; 회사소개 &gt; <strong> 오시는길 </strong>
+                </div>
+                <h2>오시는길</h2>
+                <span>“(주) 하나투어 홈페이지를 방문해주신<br>
+                    여러분을 진심으로 환영합니다 ”</span>
+                <!-- <ul>
+                    <li><a href="#">기업소개</a></li>
+                    <li><a href="#">CEO인사말</a></li>
+                    <li><a href="#">고객경영중심</a></li>
+                </ul> -->
+            </div>
+             
+            <div class="map_area">
+                <div id="map_canvas" ></div>
+                <div class="map_dl">
+                    <dl>
+                        <dt> <span>하나투어</span>는 <br>
+                             항상 열려있습니다.</dt>
+                        <dd>주소 : 서울시 종로구 인사동5길 41</dd>
+                        <dd>전화 : 1577-1233</dd>
+                        <dd>팩스 : 1111-1111</dd>
+                    </dl>
+                </div>
+            </div>
+
+            <section class="bus_subway">
+                <h3>교통편 안내</h3>
+                <table>
+                    <tr>
+                        <th scope="row"><i class="fas fa-bus"></i><br>버스 이용시</th>
+                        <td class="bus">
+                            <ul>
+                                <li>
+                                    <ul>
+                                        <li><img src="./images/content4/bus_g.jpg" alt="지선버스 이미지"></li>
+                                        <li>지선 : 2121,  222, 3142</li>
+                                    </ul>
+                                    <ul>
+                                        <li><img src="./images/content4/bus_b.jpg" alt="간선버스 이미지"></li>
+                                        <li>간선 : 130, 115</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li><img src="./images/content4/bus_r.jpg" alt="간선버스 이미지"></li>
+                                        <li>시외 : 3333</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                     <tr>
+                        <th scope="row"><i class="fas fa-subway"></i><br>지하철 이용시</th>
+                        <td class="suyway">
+                            <ul>
+                                <li>
+                                    <ul>
+                                        <li><img src="./images/content4/suyway_5_1.JPG" alt=""></li>
+                                        <li>5호선 광화문역(도보11분)</li>
+                                    </ul>
+                                    <ul>
+                                        <li><img src="./images/content4/suyway_5_2.JPG" alt=""></li>
+                                        <li>5호선 종로3가(도보8분)</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li><img src="./images/content4/suyway_1.JPG" alt=""></li>
+                                        <li>1호선종각역 (도보3분)</li>
+                                    </ul>                                
+                                </li>
+                            </ul>
+                        </td>
+                        
+                    </tr>
+               </table>
+            </section>
+        </article>
+<!-- 푸터영역 -->
+<? include "../common/sub_foot.html" ?>
+
+    </div>
+<!-- JQuery -->
+<script src="../common/js/jquery-1.12.4.min.js"></script>
+<script src="../common/js/jquery-migrate-1.4.1.min.js"></script>
+<script src="../common/js/fullnav.js"></script>
+<!-- <script src="자바 넣는 파일경로"></script> -->
+
+
+
+</body>
+</html>

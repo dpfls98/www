@@ -1,0 +1,33 @@
+/* 기업소개 서브4-1 내용 영역 */
+
+#content .title_area span{font-size: 18px;text-align: center;display: block;}
+#content .contribution{overflow: hidden;position: relative;margin-bottom: 100px;}
+#content .contribution img{position: absolute;top:50px ;left: 110px;}
+#content .contribution div{background: rgba(202, 202, 202, 0.3);padding: 130px;float:right;width: 500px;}
+#content .contribution div h3{font-size: 32px;margin-bottom: 50px;}
+#content .contribution p{line-height: 2em;}
+
+#content .mission{width: 100%;height: 250px;text-align: center;margin-bottom: 100px;background: url(/sub4/images/content1/paper.jpg) no-repeat;background-position: center;
+    background-attachment: fixed;color: #fff;}
+#content .mission h3{padding-top: 50px;}
+#content .mission span{font-size: 40px;}
+#content .mission span::after{content: "";display: block;width: 400px;height: 20px;background: #c06;position: relative;top: -30px;left: 400px;opacity: .3;z-index: -1;}
+#content .mission p{font-size: 15px;}
+
+#content .business{margin-bottom: 100px;margin-bottom: 150px;}
+#content .business h3{text-align: center;font-size: 40px;margin-bottom: 50px;}
+#content .business ul{overflow: hidden;}
+#content .business ul li{float: left;text-align: center;width: 33%;}
+#content .business ul li span{font-size: 70px;display: block;border-radius: 50%;width: 160px;height: 160px;margin: 0 auto;}
+#content .business ul li:nth-child(1) span{border: 10px solid rgb(120, 170, 250);}
+#content .business ul li:nth-child(2) span{border: 10px solid rgb(250, 120, 120);}
+#content .business ul li:nth-child(3) span{border: 10px solid rgb(200, 250, 120);}
+#content .business ul li span i{margin-top: 45px;}
+#content .business ul li dl{margin-top: 50px;}
+#content .business ul li dl dt{font-size: 30px;font-weight: 700;margin-bottom: 10px;}
+#content .business ul li dl dd{line-height: 2em;}
+
+
+
+
+

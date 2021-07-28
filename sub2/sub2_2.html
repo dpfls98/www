@@ -1,0 +1,125 @@
+<?
+	session_start();
+    @extract($_SESSION); 
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>하나투어: HSALE</title>
+
+    <!-- 헤더푸터영역링크 -->
+    <link rel="stylesheet" href="../common/css/common.css">
+    <!-- 서브공통영역링크 -->
+    <link rel="stylesheet" href="./common/css/sub2common.css">
+    <!-- 서브2_1영역콘텐츠영역링크 -->
+    <link rel="stylesheet" href="./css/sub2_2content.css">
+    <!-- 아이콘폰트 -->
+    <script src="https://kit.fontawesome.com/ca7d9c82c9.js" crossorigin="anonymous"></script>
+    <script src="../common/js/prefixfree.min.js"></script>
+
+    
+    <!--[if IE 9]>  
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+        <![endif]-->
+</head>
+<body>
+    <div class="wrap">
+       <!-- 헤더영역 -->
+       <? include "../common/sub_head.html" ?>
+        <div class="visual">
+            <img src="./common/images/sub2_visual.jpg" alt="?">
+        </div>
+        <div class="sub_menu">
+            <h3>사회현황</h3>
+            <ul>
+                <li><a href="./sub2_1.html">여행서비스</a></li>
+                <li class="current"><a href="./sub2_2.html">HSALE</a></li>
+                <li><a href="./sub2_3.html">계열사</a></li>
+            </ul> 
+        </div>
+
+        <article id="content">
+
+            <div class="title_area">
+                <div class="line_map">
+                    <span class="hidden">홈아이콘</span>
+                    <i class="fas fa-home"></i> 
+                    &gt; 사업현황 &gt; <strong>HSALE</strong>
+                </div>
+                <h2>HSALE</h2>
+                <span>“규모의 경제를 통해 아웃바운드 시장을 선도하는 하나투어는 B2B홀세일 사업으로
+                    <br> 전국의 공식인증예약센터 및 협력 여행사,제휴사 등과 함께
+                    <br> 상생하고 협력함으로 고객감동을 실현하고 있습니다.”
+                </span>
+                <!-- <ul>
+                    <li><a href="#">해외여행</a></li>
+                    <li><a href="#">국내여행</a></li>
+                    <li><a href="#">교육/출장</a></li>
+                </ul> -->
+            </div>
+
+            <div>
+                <img src="./images/content2/b2b.jpg" alt="B2B">
+                <dl>
+                    <dt>B2B 홀세일</dt>
+                    <dd>	
+                        하나투어는 항공 좌석과 호텔 객실을 대량으로 구매하여 규모의 경제를 통해
+                        <br>가격경쟁력을 확보함으로써 판매대리점의 높은 수익률을 보장하고,
+                        <br>나아가 고객에게는 가격 대비 만족도 높은 여행상품을 제공
+                    </dd>
+                </dl>
+            </div>
+
+            <div class="sale">
+                <img src="./images/content2/sale.jpg" alt="공식인증예약센터">
+                <dl>
+                    <dt>공식인증예약센터</dt>
+                    <dd>	
+                        여행사의 상생을 위해 전국 1,200개의 '하나투어 전문판매점'을 운영
+                        <br>고객과의 최접점에 하나투어 브랜드를 사용하여 신뢰도를 높이고, 
+                        <br>지속적이고 적극적인지원을 통해 상호 WIN-WIN하는기반을 마련    
+                    </dd>
+                </dl>
+            </div>
+
+
+            <div>
+                <img src="./images/content2/sale2.jpg" alt="공식인증예약센터">
+                <dl>
+                    <dt>판매대리점</dt>
+                    <dd>	
+                        여행사의 상생을 위해 전국 1,200개의 '하나투어 전문판매점'을 운영
+                        <br>고객과의 최접점에 하나투어 브랜드를 사용하여 신뢰도를 높이고, 
+                        <br>지속적이고 적극적인지원을 통해 상호 WIN-WIN하는기반을 마련    
+                    </dd>
+                </dl>
+            </div>
+            <div class="sale">
+                <img src="./images/content2/sale3.jpg" alt="공식인증예약센터">
+                <dl>
+                    <dt>제휴 및 파트너쉽</dt>
+                    <dd>	
+                        여행사의 상생을 위해 전국 1,200개의 '하나투어 전문판매점'을 운영
+                        <br>고객과의 최접점에 하나투어 브랜드를 사용하여 신뢰도를 높이고, 
+                        <br>지속적이고 적극적인지원을 통해 상호 WIN-WIN하는기반을 마련    
+                    </dd>
+                </dl>
+            </div>
+            
+        </article>
+<!-- 푸터영역 -->
+<? include "../common/sub_foot.html" ?>
+    </div>
+<!-- JQuery -->
+<script src="../common/js/jquery-1.12.4.min.js"></script>
+<script src="../common/js/jquery-migrate-1.4.1.min.js"></script>
+<script src="../common/js/fullnav.js"></script>
+<!-- <script src="자바 넣는 파일경로"></script> -->
+
+
+
+</body>
+</html>

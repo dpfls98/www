@@ -1,0 +1,30 @@
+/* 기업소개 서브1-4 내용 영역 */
+
+#content .title_area span{font-size: 18px;text-align: center;display: block;}
+
+.map_area{overflow: hidden;margin-bottom: 100px;}
+.map_area #map_canvas{float: left;width: 800px;height: 600px;}
+.map_area .map_dl{float: right;width: 400px;height: 600px;}
+.map_area .map_dl{background: #f9f9f9;}
+.map_area .map_dl dl{padding-top: 110px;text-align: center;}
+.map_area .map_dl dt{font-size: 40px;font-weight: 400;margin-bottom: 110px;}
+.map_area .map_dl dt span{color: #c06;}
+.map_area .map_dl dd{margin: 40px;}
+
+.bus_subway{margin-bottom: 100px;}
+.bus_subway h3{font-size: 40px;margin-bottom: 30px;}
+.bus_subway th{border: 2px solid #c06;width: 400px;border-radius: 50%;}
+.bus_subway td{border: 1px dotted #c06;width: 800px;}
+.bus_subway tr th i{font-size: 50px;}
+.bus_subway tr th {font-size:25px;line-height: 65px;}
+.bus_subway .bus ul{overflow: hidden;}
+.bus_subway .bus ul li{float: left;margin-left: 20px;}
+.bus_subway .bus ul li ul li:nth-child(2){margin: 40px 0 0 40px ;}
+
+.bus_subway .suyway ul{overflow: hidden;}
+.bus_subway .suyway ul li{float: left;margin-left: 20px;}
+.bus_subway .suyway ul li ul li:nth-child(2){margin: 28px 0 0 40px ;}
+
+
+
+

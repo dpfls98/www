@@ -1,0 +1,125 @@
+<?
+	session_start();
+    @extract($_SESSION); 
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>하나투어: 인쇄광고</title>
+
+    <!-- 헤더푸터영역링크 -->
+    <link rel="stylesheet" href="../common/css/common.css">
+    <!-- 서브공통영역링크 -->
+    <link rel="stylesheet" href="./common/css/sub6common.css">
+    <!-- 서브6_1영역콘텐츠영역링크 -->
+    <link rel="stylesheet" href="./css/sub6_3content.css">
+    <!-- 아이콘폰트 -->
+    <script src="https://kit.fontawesome.com/ca7d9c82c9.js" crossorigin="anonymous"></script>
+    <script src="../common/js/prefixfree.min.js"></script>
+
+    
+    <!--[if IE 9]>  
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+        <![endif]-->
+</head>
+<body>
+    <div class="wrap">
+        <!-- 헤더영역 -->
+        <? include "../common/sub_head.html" ?>
+        <div class="visual">
+            <img src="./common/images/sub6_visual.jpg" alt="?">
+        </div>
+        <div class="sub_menu">
+            <h3>홍보센터</h3>
+            <ul>
+                <li><a href="../concert/list.php">보도자료</a></li>
+                <li><a href="./sub6_2.html">CF광고</a></li>
+                <li class="current"><a href="./sub6_3.html">인쇄광고</a></li>
+            </ul> 
+        </div>
+
+        <article id="content">
+
+            <div class="title_area">
+                <div class="line_map">
+                    <span class="hidden">홈아이콘</span>
+                    <i class="fas fa-home"></i> 
+                    &gt; 홍보센터 &gt; <strong>인쇄광고</strong>
+                </div>
+                <h2>인쇄광고</h2>
+                <span>“내 소중한 여행의 동반자, <br>
+                    하나투어의 인쇄광고 ”</span>
+                <!-- <ul>
+                    <li><a href="#">CF광고</a></li>
+                    <li><a href="#">인쇄광고</a></li>
+
+                </ul> -->
+            </div>
+
+
+                
+            <section class="pop">
+                <h3 class="hidden">인쇄광고</h3>
+                <ul class="pop_menu">
+                    <li><a href="#" >
+                        <img src="./images/content3/slide1.jpg" alt="" >
+                        <p>가족愛발견</p>
+                    </a></li>
+                    <li><a href="#" >
+                        <img src="./images/content3/slide2.jpg" alt="" >
+                        <p>엄마愛발견</p>
+                    </a></li>
+                    <li><a href="#" >
+                        <img src="./images/content3/slide3.jpg" alt="" >
+                        <p>태마여행</p>
+                    </a></li>
+                    <li><a href="#" >
+                        <img src="./images/content3/slide4.jpg" alt="" >
+                        <p>여행습관</p>
+                    </a></li>
+                    <li><a href="#" >
+                        <img src="./images/content3/slide5.jpg" alt="" >
+                        <p>여행의 국가대표1</p>
+                    </a></li>
+                    <li><a href="#" >
+                        <img src="./images/content3/slide6.jpg" alt="" >
+                        <p>여행의 국가대표2</p>
+                    </a></li>
+                    <li><a href="#" >
+                        <img src="./images/content3/slide7.jpg" alt="" >
+                        <p>10년 연속 1등수상</p>
+                    </a></li>
+                    <li><a href="#" >
+                        <img src="./images/content3/slide8.jpg" alt="" >
+                        <p>하나투어 20주년</p>
+                    </a></li>
+                </ul>
+
+                <div class="modal_box"></div>
+
+                <div class="popup">
+                    <img src="./images/content3/big1.jpg" alt="" />
+                    <p>이미지에 대한 내용....</p>
+
+                    <a href="#" class="close_btn"><i class="fas fa-times"></i></a>
+                </div>
+
+            </section>
+
+
+        </article>
+<!-- 푸터영역 -->
+<? include "../common/sub_foot.html" ?>
+    </div>
+<!-- JQuery -->
+<script src="../common/js/jquery-1.12.4.min.js"></script>
+<script src="../common/js/jquery-migrate-1.4.1.min.js"></script>
+<script src="../common/js/fullnav.js"></script>
+<script src="./js/gallery.js"></script>
+
+<!-- <script src="자바 넣는 파일경로"></script> -->
+</body>
+</html>

@@ -1,0 +1,117 @@
+/* 기업소개 서브6_1 내용 영역 */
+
+#content .title_area span{font-size: 18px;text-align: center;display: block;}
+#content section{margin-bottom: 150px;}
+#content section h3{font-size: 40px;margin-bottom: 30px;}
+#content .stock{overflow: hidden;margin-bottom: 50px;}
+#content .stock dl{float: left;margin-left: 50px;margin-right: 200px;border: 1px solid #ccc;font-size: 24px;}
+#content .stock dl dt{background: #488693;text-align: center;font-size: 24px;color: #fff;padding: 20px 0;}
+#content .stock dl dd{padding: 30px 100px;}
+#content .stock dl dd span{margin-right: 40px;padding: 10px;background: #c06;border-radius: 20px;color: #fff;font-size: 18px;}
+
+#content .stock .type01 {text-align: left;line-height: 1.5;border-top: 1px solid #ccc;}
+#content .stock .type01 th {padding: 15px 50px;font-weight: bold;color: #488693;border-bottom: 1px solid #ccc;}
+#content .stock .type01 td {padding: 15px 100px;border-bottom: 1px solid #ccc;}
+
+#content .type02 {border-collapse: collapse;text-align: left;line-height: 1.5;border-top: 1px solid #ccc;margin : 20px 10px;}
+#content .type02 th {width: 147px;padding: 10px;font-weight: bold;color: #488693;border-right: 1px solid #ccc;border-bottom: 1px solid #ccc;
+    border-left: 3px solid #488693;}
+#content .type02 td {width: 349px;padding: 10px;;border-right: 1px solid #ccc;border-bottom: 1px solid #ccc;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#content.shareholder{margin-bottom: 150px;}
+#content .percent ul{overflow: hidden;border-radius: 10px;background: rgba(240, 240, 240, 0.5);font-family: Montserrat;font-weight: 400;}
+#content .percent ul li{float: left;width: 500px;padding:20px 20px;
+}
+#content .percent ul li p{padding-bottom: 10px;}
+#content .percent ul li span{display: inline-block;color: #fff;height: 30px;line-height: 30px;text-align: right;background: #c06;border-radius: 40px;padding: 0 20px;
+box-sizing: border-box;}
+
+#content .percent ul li:nth-of-type(1) span{animation: stack1 5s 1;width: 80%;}
+#content .percent ul li:nth-of-type(2) span{animation: stack2 5s 1;width: 20%;}
+#content .percent ul li:nth-of-type(3) span{animation: stack3 5s 1;width: 25%;}
+#content .percent ul li:nth-of-type(4) span{animation: stack4 5s 1;width: 20%;}
+#content .percent ul li:nth-of-type(5) span{animation: stack5 5s 1;width: 40%;}
+#content .percent ul li:nth-of-type(6) span{animation: stack6 5s 1;width: 30%;}
+
+@keyframes stack1{
+    0%{width: 0;opacity: 0;color: rgb(255, 255, 255,0);}
+    100%{width:80%;opacity: 1; color:rgb(255, 255, 255,1);}
+}
+@keyframes stack2{
+    0%{width: 0;opacity: 0;color: rgb(255, 255, 255,0);}
+    100%{width: 20%;opacity: 1; color:rgb(255, 255, 255,1);}
+}
+@keyframes stack3{
+    0%{width: 0;opacity: 0;color: rgb(255, 255, 255,0);}
+    100%{width: 25%;opacity: 1; color:rgb(255, 255, 255,1);}
+}
+@keyframes stack4{
+    0%{width: 0;opacity: 0;color: rgb(255, 255, 255,0);}
+    100%{width:20%;opacity: 1; color:rgb(255, 255, 255,1);}
+}
+@keyframes stack5{
+    0%{width: 0;opacity: 0;color: rgb(255, 255, 255,0);}
+    100%{width: 40%;opacity: 1; color:rgb(255, 255, 255,1);}
+}
+@keyframes stack6{
+    0%{width: 0;opacity: 0;color: rgb(255, 255, 255,0);}
+    100%{width: 30%;opacity: 1; color:rgb(255, 255, 255,1);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

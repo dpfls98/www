@@ -1,0 +1,79 @@
+/* 기업소개 서브5-1 내용 영역 */
+
+
+
+#content section h3{font-size: 40px;margin-bottom: 30px;}
+#content section span{font-size: 24px;color: #c06;}
+
+#content .talent{position: relative;}
+
+#content .talent .center{position: absolute;top: 265px;left: 400px;background:#65a5aa;border-radius: 10%;width: 400px;height: 400px;color: #fff;transition: all 1s;
+border: 3px solid #2b5f63;}
+#content .talent:hover .center{background: rgb(100, 160, 170, );color: #fff;border: 3px solid #fff;}
+#content .talent .center ul{overflow: hidden;padding-top: 65px;}
+#content .talent .center ul li{text-align: center;float: left;width: 200px;height: 200px;}
+#content .talent .center ul::after{content: '';display: block;width: 400px;position: absolute;top: 205px;left: -2px;border:2px dotted #666;border-left:0 ;border-right: 0;border-top: 0;}
+#content .talent .center ul::before{content: '';display: block;width: 400px;position: absolute;bottom:199px;left: -2px;border:2px dotted #666;border-left:0 ;border-right: 0;border-top: 0;
+transform: rotate(90deg);}
+#content .talent .center ul li p{padding-top: 30px;}
+#content .talent .center ul li i{font-size: 30px;}
+
+#content .talent .core_inner{position: relative;width: 1200px;height: 600px;margin-bottom: 100px;}
+#content .talent .core_inner ul{width: 1200px;}
+#content .talent .core_inner ul li{width: 357px;height: 297px; color: #fff;
+    border:3px solid #488693 ;text-align: center;background: url(../images/content1/con1.jpg) no-repeat;z-index: -5;}
+  
+
+#content .talent .core_inner ul .core_1{position: absolute;top: 100px;left: 400px;opacity: 0;transition: all 1s;border-bottom:0;border-right: 0;}
+#content .talent:hover .core_inner ul .core_1{top: 50px;left: 240px;opacity: 1;border-radius: 10px 0 0 0;}
+#content .talent .core_inner ul .core_1 dl{padding: 35px 175px 0 0;}  
+
+#content .talent .core_inner ul .core_2{position: absolute;;top: 100px;right: 400px;opacity: 0;transition: all 1s 1s;border-bottom:0 ;border-left: 0;}
+#content .talent:hover .core_inner ul .core_2{top: 50px;right: 240px;opacity: 1;border-radius: 0 10px 0 0;}
+#content .talent .core_inner ul .core_2 dl{padding: 35px 0 0 175px;}  
+
+#content .talent .core_inner ul .core_3{position: absolute;bottom: 100px;left: 400px;opacity: 0;transition: all 1s 2s;border-top: 0;border-right: 0;}
+#content .talent:hover .core_inner ul .core_3{bottom: -50px;left: 240px;opacity: 1;border-radius: 0 0 0 10px;}
+#content .talent .core_inner ul .core_3 dl{padding: 200px 175px 0 0;}  
+
+#content .talent .core_inner ul .core_4{position: absolute;bottom: 100px;right: 400px;opacity: 0;transition: all 1s 3s;border-top: 0;border-left: 0;}
+#content .talent:hover .core_inner ul .core_4{bottom: -50px;right: 240px;opacity: 1;border-radius: 0 0 10px 0;}
+#content .talent .core_inner ul .core_4 dl{padding: 200px 0 0 175px;}  
+
+
+#content .institution div{margin-top: 50px;padding: 0 10px 0 10px;margin-bottom: 100px;}
+#content .institution ul{border: 2px dotted #333; border-left: 0;border-right:0 ;}
+#content .institution ul li{margin-right: 30px;position: relative;}
+#content .institution ul li::after{content: '';display: block;width: 1100px;height: 1px;position: absolute;top: 165px;left: 27px;background: #999;}
+#content .institution ul li:last-of-type{margin-right: 0;}
+#content .institution ul li:last-of-type::after{opacity: 0;}
+#content .institution ul li dl{padding: 30px;}
+#content .institution ul li dl dt{padding-bottom: 20px;font-size: 24px;}
+
+
+#content .welfare{margin-bottom: 150px;}
+#content .welfare div{overflow: hidden;margin-top: 50px;}
+
+
+
+#content .welfare .welfare_box{border: 1px solid #999;border-radius: 40px;padding: 50px 50px 0 70px;height:550px;width: 450px;float: left;margin-right: 54px;}
+#content .welfare .welfare_box:last-of-type{margin-right: 0;}
+#content .welfare .welfare_box dt{color: #fff;font-size: 24px;margin-bottom: 30px;font-weight: 500;background:#488693 ;border-radius:  50px;;text-align: center;padding: 20px 0;}
+#content .welfare .welfare_box dd{padding-bottom: 30px;}
+
+
+/* 상단에 고정 sticky menu */
+.navOn{position: fixed; width: 100%;z-index:60; left:0; top: 0;
+    transition: all .8s;background: #c06;}
+#content .title_area .navOn li::after{display: none;}
+#content .title_area .navOn .menu_sticky a{font-weight: bold;padding: 20px 0;
+        color: #fff;}
+/* 메뉴 활성화  scroll spy */
+#content .title_area .navOn .menu_sticky .spy {color: #333;background: #fff;}
+
+
+
+
+
+
+

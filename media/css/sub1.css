@@ -1,0 +1,37 @@
+.content{}
+
+section{background:rgba(0, 0, 0, 0.8);padding: 50px 0;}
+section h3{ font-family:'Charm';font-size: 56px;color: #d5b555;
+text-align: center;margin-bottom: 40px;}
+
+
+.about_box{padding: 5%;}
+.about_box img{width: 100%;}
+.about_box .con_box{width: 100%;background: url(../images/sub1/still_cut.jpg) no-repeat center;
+background-size: cover;}
+.about_box .con_box div{
+padding: 5%;}
+.about_box p{text-align: center;line-height: 1.9em;
+}
+.clip .clip_part{position: relative;}
+.clip .clip_part .bor{display: block;position: absolute;background: #d5b555;
+transition: all .5s;}
+.clip .clip_part .bor:nth-child(1){top: 0;left: 50%;height: 5px;width: 0;}
+.clip .clip_part .bor:nth-child(2){top: 50%;right: 0;height: 0;width: 5px;}
+.clip .clip_part .bor:nth-child(3){bottom: 0;right: 50%;height: 5px;width: 0;}
+.clip .clip_part .bor:nth-child(4){bottom: 50%;left:0;height: 0;width: 5px;}
+
+.clip .clip_part:hover .bor:nth-child(1){width: 100%;left: 0;right: 0;}
+.clip .clip_part:hover .bor:nth-child(2){height: 100%;top: 0;bottom: 0;}
+.clip .clip_part:hover .bor:nth-child(3){width: 100%;left: 0;right: 0;}
+.clip .clip_part:hover .bor:nth-child(4){height: 100%;top: 0;bottom: 0;}
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+    .about_box p:nth-child(3){display: none;}
+
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+    .about_box p:nth-child(2){display: none;}
+}

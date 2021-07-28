@@ -1,0 +1,60 @@
+/* 기업소개 서브1-2 내용 영역 */
+
+#content .title_area span{font-size: 18px;text-align: center;display: block;}
+.tabs .contlist {display: none;}
+
+#content .history_nav{padding: 0 150px 0 150px ;margin-bottom: 100px;}
+#content .history_nav ul{overflow: hidden;padding: 5px;}
+#content .history_nav li{float: left;margin-right: 144px;}
+
+#content .history_nav li:last-child{margin: 0;}
+#content .history_nav li::after{content: '';display: block;position: relative;;width: 230px;height: 3px;top: -75px;right: -144px;background: #999;}
+#content .history_nav li:last-child::after{display: none;}
+#content .history_nav a{display: block;border-radius: 50%;width: 140px;text-align: center;padding: 45px 0 45px 0;  box-shadow: 3px 3px 5px 3px #999;background: #ffff;color: #c06;}
+#content .history_nav li:hover a{background: #c06;color: #fff;}
+
+
+
+section h3{font-size: 40px;text-align: center;}
+section h3::after{content: ''; display: block;width: 221px;height: 15px;background: rgba(255, 0, 119, 0.522);position: relative;top: -2px;right: -490px;z-index: -1;}
+section ul{position: relative;width: 1200px;height: 1200px;;margin-top: 100px;margin-bottom: 100px;;background:url(../images/content2/sub_history.jpg)repeat-y;background-position: center;}
+section ul li dl dt{font-size: 30px;margin-bottom: 40px;}
+section ul li dl dd{margin-bottom: 10px;width: 550px;}
+section ul li dl dd strong{display: inline-block;margin:0 10px 0 10px;color: #c06;}
+section ul li{position: absolute;}
+
+section ul li:nth-of-type(odd)::after{content: '';display: block;width: 15px;height: 15px;background: #c06;border-radius: 50%;position: relative;top: 0;right: 65px;}
+/* section ul li:nth-of-type(even)::after{content: '';display: block;width: 15px;height: 15px;background: #c06;border-radius: 50%;position: relative;top: -100px;left: 603px;} */
+
+.lately ul{height: 650px;}
+.lately ul li:nth-of-type(1){top: 50px;left: 55%;}
+.lately ul li:nth-of-type(2){top:200px;right:55%;text-align: right;}
+
+.past ul{height: 1120px;}
+.past ul li:nth-of-type(1){top:50px;left: 55%;}
+.past ul li:nth-of-type(2){top:330px;right:55%;text-align: right;}
+.past ul li:nth-of-type(3){top:700px;left: 55%;}
+.past ul li:nth-of-type(4){top:950px;right:55%;text-align: right;}
+
+.long_past ul{height: 1120px;}
+.long_past ul li:nth-of-type(1){top:50px;left: 55%;}
+.long_past ul li:nth-of-type(2){top:250px;right:55%;text-align: right;}
+.long_past ul li:nth-of-type(3){top:350px;left: 55%;}
+.long_past ul li:nth-of-type(4){top:450px;right:55%;text-align: right;}
+.long_past ul li:nth-of-type(5){top:550px;left: 55%;}
+.long_past ul li:nth-of-type(6){top:650px;right:55%;text-align: right;}
+.long_past ul li:nth-of-type(7){top:750px;left: 55%;}
+.long_past ul li:nth-of-type(8){top:850px;right:55%;text-align: right;}
+.long_past ul li:nth-of-type(9){top:950px;left: 55%;}
+
+
+
+
+
+
+
+
+
+
+
+

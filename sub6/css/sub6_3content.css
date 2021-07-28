@@ -1,0 +1,37 @@
+/* 기업소개 서브6_2 내용 영역 */
+
+#content section h3{font-size: 40px;margin-bottom: 30px;}
+.pop{margin-bottom: 150px;}
+.pop .pop_menu{overflow: hidden;}
+.pop .pop_menu li{float: left;margin-right: 40px; margin-bottom: 50px;
+     box-shadow: 10px 10px 10px #999; border: 30px solid #fff;}
+.pop .pop_menu li:nth-child(4){margin-right: 0;}
+.pop .pop_menu li:nth-child(8){margin-right: 0;}
+.pop .pop_menu li p {text-align: center;padding: 10px;}
+.pop .pop_menu li img{border-radius: 20px 20px 0 0;}
+
+
+
+
+
+
+.pop .modal_box{display: none;position: fixed; left: 0; top: 0; z-index: 50; width: 100%; height: 100%; background: #000; opacity: .7;}
+.pop  .popup{display: none;position: fixed; top: 46%; left: 50%; margin: -300px 0 0 -300px; width: 475px; height: 650px; background: #fff; box-shadow: 1px 3px 7px 0px #666;
+     z-index: 100;border: 5px solid #c06;}
+.pop  .popup img{width: 415px; height: 550px;margin:33px 30px 0 30px;}
+.pop  .popup p{width: 94%; margin:20px 0; text-align: center;}
+
+.pop  .popup .close_btn{position: absolute; top: 0; right: 0; color: #c06;
+     display: block;padding: 0 5px; border: 2px solid #c06;}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+#content .title_area{margin-bottom: 0;}
+
+.content_area{width: 1000px;margin: 0 auto 150px;}
+#view_title{padding: 10px;
+border-top: 2px solid #333; border-bottom: 1px solid #333;}
+#view_title #view_title1{font-size: 34px;
+margin-bottom: 30px;}
+#view_title #view_title2{font-size: 16px; color: #666;}
+
+#view_content{font-size: 18px;text-align: justify;
+border: 1px solid#ccc;}
+
+#view_content{padding: 50px;border: none;}
+#view_button{overflow: hidden;}
+#view_button a{display: block; float: right;
+background: #c06;color: #fff;padding: 10px;margin: 0 5px;
+text-align: center;}

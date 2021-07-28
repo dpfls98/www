@@ -1,0 +1,63 @@
+
+#content{width: 900px; margin: 0 auto; margin-top: 30px}
+header{width: 900px;margin: 0 auto;}
+.login_top{overflow: hidden;position: relative; padding-top: 130px;}
+.login_top h1{font-family: 'Montserrat'; font-size: 50px; color: #333; font-weight: 800; 
+     padding-bottom: 40px; float: right}
+.login_top::after{width: 900px; height: 5px; content: ''; 
+                    background: #c06; position: absolute; bottom: 0; left: 0}
+.join_notice li{font-family: 'Nanum Gothic', sans-serif; font-size: 13px; margin: 10px 0}
+.join_notice>li>span{text-decoration: underline}
+
+table{width: 900px;margin: 0 auto;}
+th,td{ padding: 20px;}
+th{width: 200px;position: relative;
+      display: inline-block;
+      font-family: 'Nanum Gothic', sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      margin: 0 30px;}
+th::after{    width: 8px;
+      height: 8px;
+      content: '';
+      border-radius: 4px;
+      background: #c06;
+      position: absolute;
+      top: 35px;
+      left: 10px;}
+td{width: 800px;}
+tr:first-child td{font-size: 26px;font-family: 800;}
+tr{border-bottom: 1px solid #999;}
+
+
+
+input, select{padding: 10px 5px; border-radius: 2px;
+      font-size: 1.5em; border: 0; background: #e3e3e3;outline: 0;}
+table tr:last-child td{text-align: center; padding: 100px 0}
+
+
+
+.login_top .form_logo{display: block; width: 120px; height: 80px; 
+                    background: url(../../common/images/top_logo.jpg);
+                    text-indent: -999px; overflow: hidden;
+                    float: left;}
+
+.join>div{margin-bottom: 50px;}
+
+
+input{width: 400px;}
+#hp1,#hp2,#hp3{width: 118px;}
+#email1{width: 140px;}
+#email2{width: 233px;}
+.last{margin-top: 80px}
+.last{overflow: hidden}
+.join_end, .join_again{float: left; display: block; background: #c06; color: #fff; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 18px; width: 130px; padding: 10px; 
+margin: 50px 0;}
+
+
+.join_end{margin: 0 0 0 280px}
+.join_end:hover{background: #fff; color: #c06; border: 1px solid #c06; width: 128px}
+.join_c:hover{background: #fff; color: #c06; border: 1px solid #c06; width: 128px}
+.join_c{margin: 0 20px 0 20px;
+      background: #bbb; float: left; display: block; color: #fff; text-align: center; font-family: 'Nanum Gothic', sans-serif; font-size: 18px; width: 130px; padding: 10px;}
+

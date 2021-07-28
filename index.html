@@ -1,0 +1,301 @@
+<? session_start();
+    @extract($_SESSION); ?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>하나투어</title>
+    <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico" />
+    <link rel="stylesheet" href="./common/css/common.css">
+    <link rel="stylesheet" href="./maincss/main.css">
+    <script src="./mainjs/mainpopup.js"></script>
+    <script src="https://kit.fontawesome.com/ca7d9c82c9.js" crossorigin="anonymous"></script>
+    <script src="./common/js/prefixfree.min.js"></script>
+
+    
+    <!--[if IE 9]>  
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+
+
+</head>
+<body>    
+    <div class="wrap">
+        <!-- 상단 header영역 -->
+        <? include "./common/main_head.html" ?>
+        <div class="visual">
+            <div class="gallery">
+                <ul>
+                     <li><a href="#"><img src="images/visual_1.jpg" alt='' /></a></li>
+                     <li><a href="#"><img src="images/visual_2.jpg" alt='' /></a></li>
+                     <li><a href="#"><img src="images/visual_3.jpg" alt='' /></a></li>
+                     <li><a href="#"><img src="images/visual_4.jpg" alt='' /></a></li>
+
+               </ul>
+            </div>
+        
+            <div class="gallery_text">
+                <ul>
+                    <li><span>MY TRAVEL
+                        <br>GOOD PARTNER</span>
+                        <br>내 소중한 여행의 든든한 동반자, 하나투어
+                    </li>
+                    <li><span>MY TRAVEL
+                        <br>GOOD PARTNER</span>
+                        <br>내 소중한 여행의 든든한 동반자, 하나투어
+                    </li>
+                    <li><span>MY TRAVEL
+                        <br>GOOD PARTNER</span>
+                        <br>내 소중한 여행의 든든한 동반자, 하나투어
+                    </li>
+                    <li><span>MY TRAVEL
+                        <br>GOOD PARTNER</span>
+                        <br>내 소중한 여행의 든든한 동반자, 하나투어
+                    </li>
+                    
+                </ul>
+            </div>
+        
+        
+            <div class="dock">
+                    <span class="mbutton  btn1" ></span>
+                    <span class="mbutton  btn2" ></span>
+                    <span class="mbutton  btn3" ></span>
+                    <span class="mbutton  btn4" ></span>
+                    <span class="ps" ></span>
+            </div>
+        </div>
+
+        <article id="content">
+            <h2 class="hidden">본문콘텐츠영역</h2>
+            <section class="various">
+                <h3>다양한 여행스타일</h3>
+                <p>정통 패키지 브랜드를 비롯하여 프리미엄, 자유여행, 허니문, 골프 등 다양한 테마로 구성되었습니다.</p>
+                <div class="tabs">
+                    <ul class="various_nav">
+                        <li><a class="tab tab1" href="#">해외</a></li>
+                        <li><a class="tab tab2" href="#">국내</a></li>
+                        <li><a class="tab tab3" href="#">출장/교육</a></li>
+                    </ul>
+                    <div class="contlist">
+                        <a href="./sub2/sub2_1.html">
+                        <img src="./images/service_overseas_Travel.jpg" alt="해외여행이미지">
+                        <p>해외여행 즐겁고 신나게 즐길 수 있도록
+                            <br> 다양한 여행스타일에 맞춰 여행상품을 브랜드화하여
+                            <br> 운영하고 있습니다.</p>
+                        </a>
+                        </div>
+
+                    <div class="contlist">
+                        <a href="./sub2/sub2_1.html">
+                        <img src="./images/korea.jpg" alt="한국여행이미지">
+                        <p>우리나라 곳곳의 맛과 멋을 느낄 수 있도록
+                            <br> 다양한 여행스타일에 맞춰 여행상품을 브랜드화하여
+                            <br> 운영하고 있습니다.</p>
+                        </a>
+                    </div>
+                    <div class="contlist">
+                        <a href="./sub2/sub2_1.html">
+                        <img src="./images/education.jpg" alt="교육/출장여행이미지">
+                        <p> 츨장/교육여행 진정성 있게 제안하는 맞춤형으로
+                            <br> 다양한 여행스타일에 맞춰 여행상품을 브랜드화하여
+                            <br> 운영하고 있습니다.</p>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <div class="contribution">
+                <section>
+                    <div>
+                        <h3 >인재양성</h3>
+                        <p>하나투어와 함께 인재양성</p>
+                    </div>
+                    <a href="./sub4/sub4_2.html">
+                        <img src="./images/contribution.jpg" alt="사회공헌_인재양성">
+                    </a>
+                </section>
+                <section >
+                    <div>
+                        <h3>희망봉사단</h3>
+                        <p>하나투어와 함께 희망봉사단</p>
+                    </div>
+                    <a href="./sub4/sub4_3.html">
+                        <img src="./images/olunteer.jpg" alt="사회공헌_회망봉사단">
+                    </a>
+                </section>
+            </div>
+            
+
+            <section class="news">
+                <h3>보도자료</h3>
+                <p class="news_p">내 소중한 여행의 동반자, 하나투어의 소식을 확인하세요.</p>
+                
+                <ul>
+                    
+                    <li>
+                        <a href="#"> 
+                        <img src="./images/half_pack.JPG" alt="하나투어 여행 브랜드,하프팩 출시">
+                        
+                        <p><span>여행 브랜드, 하프팩 출시</span> <br>자유여행의 여유로움과 패키지여해의 편리함을 묶은 정말 여행다운 여행 상품은 없을까.</p>
+                        </a>
+                         <button type="button">자세히보기</button> 
+                    </li>
+                    <li>
+                        <a href="#">
+                        <img src="./images/11th_anniversary.jpg" alt="하나투어 11주년 기념산행">
+                        <p><span>하나투어11주년 기념 등산</span> <br>하나투어는 지난 19일 윤창원 대표완 임직원이 함께 북한산 둘레길의21코스인 우이령길을 걸었다.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/honeymoon.jpg" alt="H웨딩 청담 열고 허니문 공략">
+                            <p><span>H웨딩 청담 열고 허니문 공략</span> <br>H웨딩 청담점은 웨딩 컨설팅만 운영했던 본점과 달리 웨딩 컨설팅과 허니문 예약을 함께 운영한다</p>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+
+            <section class="hol">
+                <h3>wholesale</h3>
+                <p>고객에게는 가격 대비 만족도 높은 
+                    여행상품을 제공하고 있습니다.</p>
+                <ul>
+                    <li>
+                        <img src="./images/cooperation.jpg" alt="wholesale_협력">
+                        <a href="./sub2/sub2_2.html">
+                            <dl>
+                                <dt>
+                                    <span>B2B</span>
+                                 </dt>
+                                <dd>
+                                    <i class="fas fa-handshake"></i>
+                                </dd>
+                                <dd>
+                                    <p> 고객에게 가격 대비 만족도 높은<br> 여행상품을 제공하고 있습니다.</p>
+                                </dd>
+                            </dl>
+                        </a>    
+                    </li>
+                    <li>
+                        <img src="./images/institution.JPG" alt="wholesale_공식인증센터">
+                        <a href="./sub2/sub2_2.html">
+                            <dl>
+                                <dt>
+                                    <span>공식인증센터</span>
+                                <dt>
+                                <dd>
+                                    <i class="fas fa-building"></i>
+                                </dd>
+                                <dd>
+                                    <p>전국 1,200개의 '하나투어 전문판매점'을<br> 운영하고 있습니다.</p>
+                                <dd>
+                            </dl>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+
+            <div class="list">
+                <div class="list_box">
+                    <section class="notice">
+                        <h3>공지사항</h3>
+                        <span class="s_news">하나투어의 소식상자 </span>
+
+                        <? include "./lib/func.php"; ?>
+
+                                <ul>
+                                    <? latest_article("greet", 5, 20 ); ?>
+                                </ul>
+
+                                <a href="./greet/list.php" class="more">more</a> 
+
+
+                        <!-- <ul>
+                            <li>
+                                <a href="#">
+                                    <p>제28기(2020년) 하나투어 결산공고</p>
+                                    <p>제28기(2020년) 하나투어 결산공고.PDF</p>
+                                    <span>2020.05.05</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <p>제28기 사업보고서 및 감사보고서 공고</p>
+                                    <p>당사는 상법 시행령 제31조 제4항 제4...</p>
+                                    <span>2020.05.05</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <p>외부감사인 선임 공고</p>
+                                    <p>당사는 2021년 02월 02일 감사위원회에서...</p>
+                                    <span>2020.05.05</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <p>전자증권 전환대상 주권 등의 권리자 보호 안내</p>
+                                    <p>당사의 전자증권제도 도입·시행...</p>
+                                    <span>2020.05.05</span>
+                                </a>
+                            </li>
+                        </ul> -->
+                        
+                    </section>
+                    
+                    <section class="hire">
+                        <h3 class="hidden">채용공고</h3>
+                        <img src="./images/hire.jpg" alt="채용공고">
+                        <a href="#">
+                            <p> 하나투어의 핵심의<br> 가치는 인재입니다</p>
+                            <span>입사지원하기</span>
+                        </a>
+                    </section>
+                </div>
+            </div>
+        </article>
+
+        <!-- 하단 footer영역 -->
+        <? include "./common/main_foot.html" ?>
+    </div>
+
+
+    <!-- 공지팝업 -->
+    <div id="showimage" style="z-index:40;position:absolute;width:322px;left:100px;top:300px;">
+        <script>
+          function closeWin(){
+             var chk = document.getElementById('Notice')
+             if ( chk.checked ) {
+                   setCookie( "Notice", "done" , 1); //1이란 숫자는 1일간 안보임을 뜻합니다. 날짜는 자신에 맞게 수정하세요
+              }
+          }
+         if ( getCookie( "Notice" ) == "done" ) {
+             hidebox();
+         }
+       </script>
+          <div>
+                <img src="popup/popup.png" alt="본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 만들어졌습니다. 홈페이지의 일부 내용과 기타 이미지 등은 그 출처가 따로 있음을 밝힙니다." />
+          </div>
+           <div style="font-size:12px;text-align:center;color:#fff;">
+             <input type="checkbox" name="Notice" id="Notice" value="" title="오늘은 이창을 열지 않음 선택상자"><label for="Notice">오늘은 이창을 열지 않음.</label>
+           <a href="#"  onclick="closeWin();hidebox();return false;"> [close] </a>
+        </div>
+      </div>
+
+    <!-- JQuery -->
+    <script src="./common/js/jquery-1.12.4.min.js"></script>
+    <script src="./common/js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="./common/js/fullnav.js"></script>
+    <script src="./mainjs/move.js"></script>
+    <script src="./mainjs/scorll.js"></script>
+      <script src="./mainjs/tab1.js"></script>
+    <!-- <script src="자바 넣는 파일경로"></script> -->
+</body>
+</html>
+

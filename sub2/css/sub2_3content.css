@@ -1,0 +1,37 @@
+/* 기업소개 서브1-2 내용 영역 */
+
+#content .title_area span{font-size: 18px;text-align: center;display: block;}
+
+#content .line{position: relative;height: 950px;}
+#content .line dt{background: rgba(230, 230, 230, 0.8);width: 400px;height: 400px;border-radius: 50%;position: absolute;top: 175px;left: 405px;text-align: center;}
+#content .line dt img{display:inline-block;margin-top: 90px;font-size:20px;width: 200px; margin-bottom: 20px;}
+#content .line dl p{font-size:20px}
+#content .line dd{width: 200px;height: 200px;border-radius: 50%;position: absolute;}
+#content .line dd:nth-of-type(1){top: 0px ;right: 493px;background: rgba(255, 0, 183, 0.5);}
+#content .line dd:nth-of-type(2){top: 120px;right: 723px;background: rgba(255, 0, 100, 0.5);}
+#content .line dd:nth-of-type(3){top: 360px ;right: 760px;background: rgba(255, 2, 171, 0.5);}
+#content .line dd:nth-of-type(4){top: 529px ;right: 603px;background: rgba(139, 11, 120, 0.5);}
+#content .line dd:nth-of-type(5){top: 519px ;right: 358px;background: rgba(255, 0, 170, 0.5);}
+#content .line dd:nth-of-type(6){top: 343px ;right: 228px;background: rgba(115, 31, 163, 0.5);}
+#content .line dd:nth-of-type(7){top: 120px ;right: 270px;background: rgba(212, 0, 99, 0.5);}
+#content .line dd img{margin: 50px 0 30px 35px;}
+#content .line dd p{text-align: center;color: #fff;}
+#content .line_list {overflow: hidden;}
+#content .line_list li{width: 350px;height: 350px;float: left;margin-bottom: 100px;margin-left: 65px; box-shadow: 15px 15px 10px #999;}
+#content .line_list li:hover{box-shadow: 7px 7px 7px #666;}
+#content .line_list li a{display: block;}
+
+#content .line_list li:nth-child(1){margin-left:0;}
+#content .line_list li:nth-child(4){margin-left:0;}
+#content .line_list li:nth-child(7){margin-left:0;margin-bottom: 150px;}
+#content .line_list li strong{display: block; background: #666;padding: 20px 0 20px 0;font-size: 24px;text-align: center;color: #fff;}
+#content .line_list li:nth-of-type(1) strong{background: rgba(255, 0, 183, 0.5);}
+#content .line_list li:nth-of-type(2) strong{background: rgba(255, 0, 100, 0.5);}
+#content .line_list li:nth-of-type(3) strong{background: rgba(255, 2, 171, 0.5);}
+#content .line_list li:nth-of-type(4) strong{background: rgba(139, 11, 120, 0.5);}
+#content .line_list li:nth-of-type(5) strong{background: rgba(255, 0, 170, 0.5);}
+#content .line_list li:nth-of-type(6) strong{background: rgba(115, 31, 163, 0.5);}
+#content .line_list li:nth-of-type(7) strong{background: rgba(212, 0, 99, 0.5);}
+#content .line_list li p{margin: 20px 20px 0 20px;line-height: 2em;}
+
+

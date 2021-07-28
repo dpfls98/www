@@ -1,0 +1,50 @@
+/* CSS Document */
+
+/* 비주얼영역 */
+.sub_menu{background: url(../images/sub3/visual3.jpg) center no-repeat;background-size: cover;
+    margin-top: 50px;height: 150px;
+    }
+h2{font-size: 30px;color: #fff;text-align: center;
+position: absolute;top: 100px; left: 50%;margin-left: -50px;}
+.tab_menu{overflow: hidden;background: rgba(153, 153, 153, .2);}
+.tab_menu li{text-align: center; 
+    float: left;width: 33.333%;}
+.tab_menu li a{display: block;font-size: 20px;
+    background: rgba(255, 255, 255, .5);padding: 10px;}
+
+/* .tabs section {display: none;} --------*/
+
+/* 서브 공통 간격 */
+.hsale{margin: 50px 10px;}
+.hsale h3::after{display: block;content: '';position: absolute;
+    top: 50px;left: 50%;;width: 70px;height: 3px;
+    background: #c06;margin-left: -35px;}
+.title{display: block;text-align: center;font-size: 18px;
+        padding: 10px 50px 90px 50px;
+        position: relative;}
+.title strong{color: #c06;}
+.title::after{content: "";display: block;
+    border: 5px solid #c06;border-top: 5px solid #fff;border-radius: 10px;
+    position: absolute;bottom: 0;left: 50%;margin-left: -10px;
+width: 2px;height: 55px;}
+
+/* 서브3_2_1홀세일 */
+#content li:first-child{margin-top: 50px;}
+#content li {position: relative;margin-bottom: 30px;
+display: flex;flex-flow: row nowrap;}
+#content li:nth-child(2){flex-flow: row-reverse nowrap;}
+#content li:nth-child(4){flex-flow: row-reverse nowrap;}
+
+
+#content li img{display: block;width: 50%;
+    border: 1px solid rgb(204, 204, 204);border-radius: 40px 0 40px 0;}
+
+#content li dl{width: 50%;background:rgba(255, 255, 255, 0.8);
+    border-radius: 0 40px 0 40px; border: 3px solid #999;text-align: center;}
+#content li dl dt{margin: 10px 0 20px 0; font-size: 24px;}
+#content li dl dd{margin: 0px 30px 6px 20px;line-height: 1.5em;}
+
+
+
+
+

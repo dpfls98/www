@@ -1,0 +1,33 @@
+/* 기업소개 서브2_2 내용 영역 */
+
+#content .title_area span{font-size: 18px;text-align: center;display: block;}
+#content .title_area .line_map strong{font-family: Montserrat;}
+#content .title_area h2{font-family: Montserrat;}
+
+
+#content div {position: relative;margin-bottom: 150px;}
+
+#content div img{position: relative; top: 0;right: 0;display: block;border: 1px solid rgb(204, 204, 204);border-radius: 40px 0 40px 0;}
+#content div dl{position: absolute;top: 45px;right: 0;width: 690px;background:rgba(255, 255, 255, 0.8);
+    border-radius: 0 40px 0 40px; border: 3px solid #999;text-align: center;}
+#content div dl dt{margin: 20px 0 40px 0; font-size: 24px;}
+#content div dl dd{margin: 0px 50px 26px 50px;line-height: 1.5em;}
+
+#content .sale img{top: 0;left: 498px;}
+#content .sale dl{top: 45px;right: 480px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

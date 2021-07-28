@@ -1,0 +1,30 @@
+/* 기업소개 서브5-3 내용 영역 */
+#content .title_area{margin-bottom: 100px;}
+#content .title_area span{text-align: center;display: block;}
+#content .volunteerp{margin-bottom: 100px;}
+
+.faq{width:1200px; border-bottom:1px solid #ddd; margin-bottom: 50px;}  
+
+.mail_b{width: 540px;margin: 0 auto 50px;text-align: center;}
+.mail_b i{font-size: 30px;}
+.mail_b p{margin: 20px 0;font-size: 20px;}
+.mail_b a{display: block;background: #c06; color: #fff;border-radius: 30px;width: 300px;height: 30px;
+margin: 0 auto;border: 1px solid #fff;}
+.mail_b a:hover{background: #fff;color: #c06;border:1px solid #c06 ;}
+
+
+.faq .hgroup{position:relative;margin:0 0 10px 0;} 
+.faq .hgroup h3{font-size: 30px;}
+.faq .hgroup .all{position:absolute; top:-2px; right:5px; color:#fff;background: #333;
+    width: 100px;height: 30px;border: 10px;text-align: center;}  
+.faq ul{margin:0;padding:0;list-style:none}  
+.faq .q{margin:0;border-top:1px solid #ddd; position: relative;}  
+.faq .q a.trigger{display:block;padding:25px;background:#fafafa;color:#333;text-align:left}  
+.faq .q i{font-size: 30px;margin-right: 20px;color: #666;}
+.faq .hide .q a.trigger{background:none}  
+.faq .q a.trigger:hover,  
+.faq .q a.trigger:active,  
+.faq .q a.trigger:focus{background:#c06;color:#fff} 
+.faq .q span{display: block; position: absolute; right: 15px; top:10px} 
+.faq .a{padding:20px 80px;line-height:2;display: none;position: relative;} 
+.faq .a i{position: absolute;top: 25px;left: 25px;font-size: 30px;color: #c06;}

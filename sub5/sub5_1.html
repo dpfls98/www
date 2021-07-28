@@ -1,0 +1,236 @@
+<?
+	session_start();
+    @extract($_SESSION); 
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>하나투어: 인사정보</title>
+
+    <!-- 헤더푸터영역링크 -->
+    <link rel="stylesheet" href="../common/css/common.css">
+    <!-- 서브공통영역링크 -->
+    <link rel="stylesheet" href="./common/css/sub5common.css">
+    <!-- 서브4_1영역콘텐츠영역링크 -->
+    <link rel="stylesheet" href="./css/sub5_1content.css">
+    <!-- 아이콘폰트 -->
+    <script src="https://kit.fontawesome.com/ca7d9c82c9.js" crossorigin="anonymous"></script>
+    <script src="../common/js/prefixfree.min.js"></script>
+
+    
+    <!--[if IE 9]>  
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+        <![endif]-->
+</head>
+<body>
+    <div class="wrap">
+        <!-- 헤더영역 -->
+        <? include "../common/sub_head.html" ?>
+        <div class="visual">
+            <img src="./common/images/sub5_visual.jpg" alt="?">
+        </div>
+        <div class="sub_menu">
+            <h3>채용정보</h3>
+            <ul>
+                <li class="current"><a href="./sub5_1.html">인사정보</a></li>
+                <li><a href="./sub5_2.html">직무소개</a></li>
+                <li><a href="../greet2/list.php">모집공고</a></li>
+                <li><a href="./sub5_4.html">채용문의</a></li>
+            </ul> 
+        </div>
+
+        <article id="content">
+
+            <div class="title_area">
+                <div class="line_map">
+                    <span class="hidden">홈아이콘</span>
+                    <i class="fas fa-home"></i> 
+                    &gt; 채용정보 &gt; <strong>인사정보</strong>
+                </div>
+                <h2>인사정보</h2>
+                <!-- <span>“(주) 하나투어 홈페이지를 방문해주신<br>
+                    여러분을 진심으로 환영합니다 ”</span> -->
+                <div class="navBox">
+                    <ul class="slideMenu">
+                        <li><a class="link1" href="#">인재상</a></li>
+                        <li><a class="link2" href="#">인사제도</a></li>
+                        <li><a class="link3" href="#">복리후생</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="content_area">
+                <section class="talent slide_con con1">
+                    <h3>인재상</h3>
+                    <span>모든 직원이 여행전문가인 하나투어</span>
+                    <div class="center">
+                        <ul>
+                            <li>
+                                <i class="fas fa-brain"></i>
+                                <p>서비스마인드</p>
+                            </li>
+                            <li>
+                                <i class="fas fa-chalkboard-teacher"></i>
+                                <p>프로의식</p>
+                            </li>
+                            <li>
+                                <i class="fas fa-globe-africa"></i>
+                                <p>글로버역량</p>
+                            </li>
+                            <li>
+                                <i class="fas fa-laptop"></i>
+                                <p>디지털마인드</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="core_inner">
+                        <ul>
+                            <li class="core_1">
+                                <dl>
+                                    <dt>'고객가치 창출'</dt>
+                                    <dd>서비스맨</dd>
+                                </dl>
+                            </li>
+                            <li class="core_2">
+                                <dl>
+                                    <dt>'스스로의 변화'</dt>
+                                    <dd>변화인</dd>
+                                </dl>
+                            </li>
+                            <li  class="core_3">
+                                <dl>
+                                    <dt>'미래창조'</dt>
+                                    <dd>창조인</dd>
+                                </dl>
+                            </li>
+                            <li  class="core_4">
+                                <dl>
+                                    <dt>'끊임 없는 배움'</dt>
+                                    <dd>학습인</dd>
+                                </dl>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                
+                <section class="institution slide_con con2">
+                    <h3>인사제도</h3>
+                    <span>꿈과 희망이 있는 기업</span>
+                    <div>
+                        <ul>
+                            <li>
+                                <dl>
+                                    <dt><span>01</span> 잡쉐어링제도</dt>
+                                    <dd>하나투어는 잡 쉐어링 제도를 인적자원의 효율적 관리와 고용 안정을
+                                        위하여 도입하고 있습니다. 이는 직원의 정년고용을 보장하는 대신 주중 근무일수를 줄이고 그에
+                                        따라 급여를 줄여가는 제도입니다. 하나투어는 정년을 기존의 55세에서 잡쉐어링제도를 도입한 이후
+                                        65세로 연장하고 있습니다.</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt> <span>02</span>사내공모</dt>
+                                    <dd>하나투어는 사내공모(Job-Posting)를 통해 직무 순환을 운영하고 있습니다.
+                                        <br> 이를 통해 직무 영역을 넓히고, 다방면의 경험, 지식 등을 쌓아 하나투어의 인재상인 여행전문가로 성장할 수 있도록 지원하고
+                                        있습니다.</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt> <span>03</span>성과급제도</dt>
+                                    <dd>하나투어는 직원의 사기진작을 위해 회사의 수익을 직원에게 바로 분배 할 수 있는 성과급제도를 잘
+                                        운영하고 있습니다. 
+                                        <br>년간 회사의 수익이 10이라면 최저 2정도의 비율이 성과급이 됩니다. 성과급은
+                                        매 분기별 성과급과 연말성과급 등이 있습니다.</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt><span>04</span>스마트 워킹</dt>
+                                    <dd>하나투어는 거점근무제, 시차출퇴근제, 재택근무제 등 스마트 워킹 (유연근무제) 을 운영하고 있습니다.
+                                        이를 통해 일과 삶의 균형을 이루어 직원이 행복한 삶을 누릴 수 있도록 지원하고 있습니다.</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt><span>05</span>안식년제도</dt>
+                                    <dd>하나투어는 직원의 자아발전을 도모하기 위해 안식년 제도를 운영하고 있습니다. 
+                                        <br>안식년 기간 중 어학연수, 여행 등을 통해 자기계발 및 재충전의 기회를 제공하고 있습니다</dd>
+                                </dl>
+                            </li>
+                        </ul>
+                
+                    </div>
+                
+                </section>
+                
+                <section class="welfare slide_con con3">
+                    <h3>복리후생</h3>
+                    <span>다양한 복리제도를 마련,실시</span>
+                    <div>
+                        <dl class="welfare_box">
+                            <dt>지원</dt>
+                            <dd>
+                                <strong>경조금 지원</strong>
+                                <p>결혼, 회갑/칠순, 돌, 내집 마련(집들이),
+                                    <br> 영면(사망), 입원 등</p>
+                            </dd>
+                            <dd>
+                                    <strong>하나투어 마일리지 지급</strong>
+                                    <p>생일, 명절(설/추석), 창립기념일, 출산,
+                                        <br> 10년/20년 장기근속 포상 등</p>
+                            </dd>
+                            <dd>
+                                    <strong>자기개발 지원</strong>
+                                    <p>사내 동호회 활동비, 어학 실력향상 지원금,
+                                        <br> 직급/직책별 교육 지원 등</p>
+                            </dd>
+                            <dd>
+                                    <strong>가족돌봄 지원</strong>
+                                    <p>자녀 학자금 지원, 장애아동 가족 특별 수당,
+                                        <br> 만 40세 임직원 건강검진 비용 지원 등</p>
+                            </dd>
+                        </dl>
+                        <dl class="welfare_box">
+                            <dt>혜택</dt>
+                            <dd>
+                                    <strong>여행 관련 혜택</strong>
+                                    <p>임직원 전용 할인 상품 등 제공
+                                        <br> (패키지, 호텔, 항공 등)</p>
+                            </dd>
+                            <dd>
+                                    <strong>법인콘도</strong>
+                                    <p>국내 주요 콘도의 숙박을
+                                        <br> 법인 회원가로 제공</p>
+                            </dd>
+                            <dd>
+                                    <strong>직장어린이집</strong>
+                                    <p>
+                                        만 0세~만5세의 임직원 자녀를 위한
+                                        <br> 직장어린이집 운영</p>
+                            </dd>
+                        </dl>
+                    </div>
+                
+                </section>
+            </div>
+            
+         
+
+
+
+        </article>
+<!-- 푸터영역 -->
+<? include "../common/sub_foot.html" ?>
+    </div>
+<!-- JQuery -->
+<script src="../common/js/jquery-1.12.4.min.js"></script>
+<script src="../common/js/jquery-migrate-1.4.1.min.js"></script>
+<script src="../common/js/fullnav.js"></script>
+<script src="js/slide_move.js"></script>
+<!-- <script src="자바 넣는 파일경로"></script> -->
+</body>
+</html>

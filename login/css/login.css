@@ -1,0 +1,87 @@
+#id_box{width: 600px; margin: 110px auto 0;}
+body{font-family: 'Noto Sans KR', 'sans-serif';}
+.id_top{overflow: hidden;position: relative;}
+.id_top::after{width: 1000px; height: 5px; content: ''; 
+    background: #c06; position: absolute; bottom: 0; left: 0}
+#id_box .form_logo{display: block; width: 120px; height: 80px; 
+    background: url(../../common/images/top_logo.jpg);
+    text-indent: -999px; overflow: hidden;
+    float: left;}
+#id_box h2{font-family: 'Montserrat'; font-size: 50px; color: #333; font-weight: 800; 
+        padding-bottom: 40px; float: right}
+
+
+#id_pw_input{margin-top: 50px; margin: 0 auto;}
+#id_pw_input ul li{margin: 20px;}
+#id_pw_input ul li input{width: 560px;border: none;
+background: #efeaec;padding: 5px;height: 40px;}
+
+#login_button{overflow: hidden;}
+#login_button button{cursor: pointer;
+    background: #c06;color: #fff;
+    padding: 5px;height: 50px;
+    border: none;width: 290px;margin-right: 20px;
+    float: left;}
+#login_button button:hover{color: #004b84;
+    background: #fff;
+    border: #004b84 solid 1px;}
+
+#login_button a{display: inline-block;
+    background: #bbb;color: #fff;
+    padding: 14.5px 5px;
+    border: none;
+    width: 280px;
+    float: right;
+    text-align: center;}
+
+#join_button{border-top: 3px solid rgba(102, 102, 102, 0.5);
+margin-top: 10px;
+overflow: hidden;
+padding-top: 30px;}
+
+.join_box{float: left;}
+.join_box span{display: block;font-size: 24px;
+margin-bottom: 10px;}
+.join_box p{}
+
+#join_button a{display: inline-block;
+    color: #c06;
+    padding: 12.5px 0px;
+    border: 5px solid #c06;
+    width: 270px;
+    float: right;
+    text-align: center;font-weight: 700;}
+
+.join_ip{font-size: 16px;overflow: hidden;margin-top: 10px;}
+.join_ip li {width: 250px;float: left;}
+.join_ip li{padding: 25px;}
+.join_ip li span{
+text-align: center;}
+.join_ip li span:first-child{margin-right: 50px;margin-left: 15px;}
+
+
+
+/*아이디 비번 찾기*/
+#wrap{width: 600px; margin: 110px auto 0;}
+#find_box .form_logo{display: block; width: 120px; height: 80px; 
+    background: url(../../common/images/top_logo.jpg);
+    text-indent: -999px; overflow: hidden;
+    float: left;}
+#find_box h2{font-family: 'Montserrat'; font-size: 40px; color: #333; font-weight: 800; 
+        padding-bottom: 40px; float: right}
+#find_box p{float: left;margin-bottom: 10px;margin-left: 10px;}
+
+#id_input_button{text-align: center;}
+#id_input_button fieldset{margin: 10px 0;}
+#id_input_button .find_input{width: 149px; height: 40px;
+border: none; background: #e6e6e6;}
+#id_input_button .find_b{width: 500px;margin: 10px 0;}
+#id_input_button .find{background: #fff;
+    display: block;
+    width: 500px; height: 40px;
+    background-color: #c06;
+    color: #fff;
+    margin: 10px auto;
+    transition: all .5s;
+    font-weight: bold;border: none;}
+.go li{margin:10px 0}
